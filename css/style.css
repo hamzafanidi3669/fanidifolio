@@ -1192,8 +1192,10 @@ footer .credits a {
 @media (max-width: 767px) {
   .intro.bg-image {
     background-size: cover!important;
-    background-position: center!important;
-    
+    background-position: center!important; 
+  }
+  body{
+    background-color: green;
   }
 }
 
