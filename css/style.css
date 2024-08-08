@@ -1188,11 +1188,23 @@ footer .credits a {
   -webkit-background-size: cover; /* Préfixe pour Safari */
   background-size: cover;
 }
+
+@media (max-width: 767px) {
+  .intro.bg-image {
+    background-size: cover!important;
+    background-position: center!important;
+    
+  }
+}
+
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
   }
 }
+
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
