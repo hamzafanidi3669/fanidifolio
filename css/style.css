@@ -1176,7 +1176,18 @@ footer .credits a {
   line-height: 1.5;
   border-radius: .3rem;
 }
-
+.intro {
+  background-size: cover; /* Assure que l'image couvre tout le conteneur */
+  background-position: center center; /* Centre l'image dans le conteneur */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+.intro {
+  min-height: 100vh; /* Assure que le conteneur couvre la hauteur de l'écran */
+}
+.intro {
+  -webkit-background-size: cover; /* Préfixe pour Safari */
+  background-size: cover;
+}
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
