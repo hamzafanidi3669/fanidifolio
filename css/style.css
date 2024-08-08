@@ -1194,9 +1194,7 @@ footer .credits a {
     background-size: cover!important;
     background-position: center!important; 
   }
-  body{
-    background-color: green;
-  }
+
 }
 
 
@@ -1380,4 +1378,8 @@ footer .credits a {
 
 .title-s-mail{
   font-size: 16px;
+}
+
+.intro{
+  background-image: url(../img/back_coding8.jpeg)
 }
