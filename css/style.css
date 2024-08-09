@@ -667,6 +667,53 @@ a:hover {
   color: #fff;
 }
 
+
+/*  */
+
+.intro {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.intro .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/back_coding8.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .9;
+}
+
+.intro .intro-content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Ajoutez cette media query pour les appareils mobiles */
+@media (max-width: 767px) {
+  .intro .bg-image {
+    background-image: url(../img/back_coding8_mobile.jpeg); /* Utilisez une version optimisée pour mobile si disponible */
+  }
+  body{
+    background-color: green;
+  }
+}
+
 /*======================================
 //--//-->   ABOUT
 ======================================*/
