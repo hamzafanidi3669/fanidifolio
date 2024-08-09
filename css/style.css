@@ -709,9 +709,6 @@ a:hover {
   .intro .bg-image {
     background-image: url(../img/back_coding8_mobile.jpeg); /* Utilisez une version optimisée pour mobile si disponible */
   }
-  body{
-    background-color: green;
-  }
 }
 
 /*======================================
