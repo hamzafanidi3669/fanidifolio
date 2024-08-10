@@ -1427,3 +1427,32 @@ footer .credits a {
 .intro{
   background-image: url(../img/back_coding8.jpeg)
 }
+
+
+.github-icon {
+  position: fixed;
+  bottom: 10px;
+  left: 20px; /* Ajustez cette valeur pour positionner l'icône GitHub à gauche de l'icône de défilement */
+  width: 40px;
+  height: 40px;
+  background-color: #333; /* Couleur de fond GitHub */
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  z-index: 99;
+}
+
+.github-icon:hover {
+  background-color: #0062d3; /* Couleur au survol */
+}
+.back-to-top:hover{
+  background-color: #0062d3; /* Couleur au survol */
+
+}
+.lien_github_contact{
+  margin-left: 4px;
+  color:rgb(78, 78, 78);
+  
+}
