@@ -1454,5 +1454,50 @@ footer .credits a {
 .lien_github_contact{
   margin-left: 4px;
   color:rgb(78, 78, 78);
-  
+
+}
+
+
+/*  */
+
+.lien_github_contact {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  transition: all 1.3s ease;
+}
+
+.github-text {
+  border-bottom: 1px dotted #0062d3;
+}
+
+.github-hover-effect {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0062d3;
+  color: white!important;
+  padding: 5px;
+  transition: all 0.8s ease;
+}
+
+.lien_github_contact:hover .github-text {
+  transform: translateY(-100%);
+}
+
+.lien_github_contact:hover .github-hover-effect {
+  transform: translateY(-100%);
+}
+
+.hover-text {
+  margin-left: 5px;
+  font-size: 0.9em;
+}
+.github-hover-effect span {
+  color: white;
 }
